@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
 					),
 				),
 			),
-			home: Text('Liz booty is ripe'),
+			home: Text('hello'),
 		);
 	}
 }
