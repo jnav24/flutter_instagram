@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './home.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,22 +10,24 @@ class MyApp extends StatelessWidget {
 			debugShowCheckedModeBanner: false,
 			title: 'Instagram Clone',
 			theme: ThemeData(
-				primarySwatch: Colors.black,
+				primarySwatch: Colors.blue,
+				primaryColor: Colors.black,
 				primaryIconTheme: IconThemeData(
 					color: Colors.black,
 				),
 				primaryTextTheme: TextTheme(
 					title: TextStyle(
 						color: Colors.black,
+						fontFamily: "AvenyT",
 					),
 				),
 				textTheme: TextTheme(
 					title: TextStyle(
-						color: Colors.black
+						color: Colors.black,
 					),
 				),
 			),
-			home: Text('hello'),
+			home: Home(),
 		);
 	}
 }
