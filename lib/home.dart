@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './modules/main_bottom_bar.dart';
+import './modules/main_posts.dart';
 
 class Home extends StatelessWidget {
 	final topBar = AppBar(
@@ -23,8 +24,13 @@ class Home extends StatelessWidget {
 	Widget build(BuildContext context) {
     	return Scaffold(
 			appBar: topBar,
-			body: Container(
-
+			body: Column(
+				mainAxisAlignment: MainAxisAlignment.start,
+				children: <Widget>[
+					Flexible(
+						child: MainPosts(),
+					)
+				],
 			),
 			bottomNavigationBar: MainBottomBar(),
 		);
