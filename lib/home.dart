@@ -27,19 +27,19 @@ class Home extends StatelessWidget {
 			),
 			IconButton(
 				icon: Icon(Icons.search),
-				onPressed: () {},
+				onPressed: null,
 			),
 			IconButton(
 				icon: Icon(Icons.add_box),
-				onPressed: () {},
+				onPressed: null,
 			),
 			IconButton(
 				icon: Icon(Icons.favorite),
-				onPressed: () {},
+				onPressed: null,
 			),
 			IconButton(
 				icon: Icon(Icons.account_circle),
-				onPressed: () {},
+				onPressed: null,
 			),
 		],
 	);
