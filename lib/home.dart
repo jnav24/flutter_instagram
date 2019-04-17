@@ -26,14 +26,7 @@ class Home extends StatelessWidget {
 			body: Container(
 
 			),
-			bottomNavigationBar: Container(
-				color: Colors.white,
-				height: 50.0,
-				alignment: Alignment.center,
-				child: BottomAppBar(
-					child: MainBottomBar(),
-				),
-			),
+			bottomNavigationBar: MainBottomBar(),
 		);
   	}
 }
