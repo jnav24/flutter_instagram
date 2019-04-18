@@ -5,7 +5,6 @@ class MainBottomBar extends StatelessWidget {
 		mainAxisAlignment: MainAxisAlignment.spaceAround,
 		children: <Widget>[
 			IconButton(
-				color: Colors.lightBlue,
 				icon: Icon(Icons.home),
 				onPressed: () {},
 			),
